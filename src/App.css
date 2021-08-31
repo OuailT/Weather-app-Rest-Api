@@ -8,7 +8,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: auto;
-  background-color: #f1f1fa;
+  background-color: #e5e5e5;
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 .title {
   font-size: 50px;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .container {
@@ -28,6 +28,8 @@ main {
   padding: 50px 0rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+  color: #000000;
 }
 
 .form-control {
@@ -41,14 +43,16 @@ main {
   margin-right: 20px;
   border: 2px solid #90929a;
   padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 button {
-  background-color: #4450bc;
+  background-color: #000000;
   border: none;
   height: 35px;
-  width: 70px;
-  font-weight: 400;
+  width: 100px;
+  font-weight: 500;
   letter-spacing: 1px;
   color: #fff;
   font-family: inherit;
@@ -66,12 +70,16 @@ article h2 {
 
 article h3 {
   font-size: 35px;
+  opacity: 0.5;
+  color: #080a2b;
 }
 
 article h4 {
   font-size: 20px;
+  opacity: 0.5;
+  color: #080a2b;
 }
 
 span {
-  padding: 0px 10px;
+  padding: 0 10px;
 }

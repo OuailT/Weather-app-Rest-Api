@@ -8,3 +8,8 @@
 [x] get the value from the input by console.log //
 [x] give the input value attribute // onChange to get the value
 [x] create submit function
+[x] Create Initial data to display on refresh
+[x] create a state called weatherIcons with an objects of all the icons
+[x] create a function who takes icons, color to display the weather based on the id of the weather
+[x] include the function on submit
+[] include the state inside i tag
